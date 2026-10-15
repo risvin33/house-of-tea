@@ -84,7 +84,7 @@ export default function Hero({ onExploreBranches, onExploreMenu }) {
           </p>
 
           <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed mt-4 font-normal">
-            Slow-simmered Assam black tea leaves, crushed green cardamom pods, pure Persian saffron strands, and rich caramelized milk. Poured fresh daily across 54+ outlets since the year 2000.
+            Slow-simmered Assam black tea leaves, crushed green cardamom pods, pure Persian saffron strands, and rich caramelized milk. Poured fresh daily across our outlets since the year 2000.
           </p>
         </motion.div>
 
