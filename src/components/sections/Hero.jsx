@@ -120,40 +120,6 @@ export default function Hero({ onExploreBranches, onExploreMenu }) {
           </button>
         </motion.div>
 
-        {/* Corporate Performance Statistics */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="grid grid-cols-3 gap-4 sm:gap-8 py-5 px-6 sm:px-10 rounded-2xl bg-white border border-[#fbcfe8] max-w-xl w-full mb-10 shadow-sm"
-        >
-          <div>
-            <div className="text-2xl sm:text-3xl font-black text-[#1c0d16] font-sans">
-              120K<span className="text-[#e6007e]">+</span>
-            </div>
-            <div className="text-[11px] text-slate-500 font-semibold uppercase tracking-wider mt-0.5">
-              Cups Daily
-            </div>
-          </div>
-
-          <div className="border-x border-pink-100">
-            <div className="text-2xl sm:text-3xl font-black text-[#1c0d16] font-sans">
-              54<span className="text-[#c89b3c]">+</span>
-            </div>
-            <div className="text-[11px] text-slate-500 font-semibold uppercase tracking-wider mt-0.5">
-              GCC Outlets
-            </div>
-          </div>
-
-          <div>
-            <div className="text-2xl sm:text-3xl font-black text-[#1c0d16] font-sans">
-              24<span className="text-[#e6007e]">/7</span>
-            </div>
-            <div className="text-[11px] text-slate-500 font-semibold uppercase tracking-wider mt-0.5">
-              Car-Side Service
-            </div>
-          </div>
-        </motion.div>
 
         {/* Social Connection Links */}
         <motion.div
