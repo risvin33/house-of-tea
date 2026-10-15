@@ -3,12 +3,5 @@
   "compatibility_date": "2026-10-16",
   "assets": {
     "directory": "./dist"
-  },
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "house-of-tea-db",
-      "database_id": "a1bc8a9d414344c9a99842276e6871fe"
-    }
-  ]
-}
+  }
+}
