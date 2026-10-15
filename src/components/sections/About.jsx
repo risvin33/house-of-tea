@@ -50,7 +50,7 @@ export default function About() {
             </p>
 
             <p className="text-slate-600 leading-relaxed mb-8 text-base">
-              From our signature roadside curbside service to iconic waterfront flagships, we serve over 120,000 satisfied guests every single day across 54+ locations in the UAE, Saudi Arabia, Qatar, and beyond.
+              From our signature roadside curbside service to iconic waterfront flagships, we serve over 120,000 satisfied guests every single day across 19 locations in the UAE.
             </p>
 
             <button
