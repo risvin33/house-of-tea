@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', 'Cairo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #faf5f8;
+  color: #1c0d16;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Islamic Arch / Dome Frame replicating the brand image */
+.arch-card {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  background-color: #ffffff;
+  border: 4px solid #fbcfe8;
+  box-shadow: 0 10px 40px rgba(230, 0, 126, 0.15);
+}
+
+.hotpink-glow {
+  box-shadow: 0 0 35px -5px rgba(230, 0, 126, 0.35);
+}
+
+.hotpink-text-glow {
+  text-shadow: 0 0 20px rgba(230, 0, 126, 0.3);
+}
+
+/* Glassmorphism & Borders tailored to House of Tea */
+.glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(230, 0, 126, 0.12);
+}
+
+.glass-strong {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border-bottom: 2px solid #fbcfe8;
+}
+
+.golden-border {
+  border: 1px solid rgba(200, 155, 60, 0.35);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #e6007e 0%, #c89b3c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-pink-glow {
+  background: linear-gradient(135deg, #e6007e 0%, #c2006b 100%);
+  box-shadow: 0 8px 25px rgba(230, 0, 126, 0.35);
+  transition: all 0.3s ease;
+}
+
+.btn-pink-glow:hover {
+  background: linear-gradient(135deg, #ff2a9d 0%, #e6007e 100%);
+  box-shadow: 0 10px 35px rgba(230, 0, 126, 0.5);
+  transform: translateY(-1px);
+}
+
+.btn-gold-outline {
+  border: 1.5px solid #c89b3c;
+  color: #926916;
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.btn-gold-outline:hover {
+  background: rgba(200, 155, 60, 0.1);
+  color: #78530b;
+}
+
+/* Subtle scrollbar in House of Tea theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #faf5f8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fbcfe8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e6007e;
+}
