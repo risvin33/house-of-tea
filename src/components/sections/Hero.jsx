@@ -100,7 +100,7 @@ export default function Hero({ onExploreBranches, onExploreMenu }) {
             className="w-full sm:w-auto btn-pink-glow rounded-full px-8 py-4 text-xs font-bold text-white flex items-center justify-center gap-2 group uppercase tracking-widest shadow-md shadow-pink-500/20"
           >
             <MapPin size={16} />
-            <span>Find Nearest Branch (54+)</span>
+            <span>Find Nearest Branches</span>
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </button>
 
