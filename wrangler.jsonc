@@ -4,10 +4,11 @@
   "assets": {
     "directory": "./dist"
   },
-  "services": [
+  "d1_databases": [
     {
       "binding": "DB",
-      "id": "a1bc8a9d414344c9a99842276e6871fe"
+      "database_name": "house-of-tea-db",
+      "database_id": "a1bc8a9d414344c9a99842276e6871fe"
     }
   ]
-}
+}
