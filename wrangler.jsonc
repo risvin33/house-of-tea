@@ -1,7 +1,13 @@
 {
-    "name": "house-of-tea",
-    "compatibility_date": "2026-10-16", // Update to the day you deploy
-    "assets": {
-        "directory": "./dist",
+  "name": "house-of-tea",
+  "compatibility_date": "2026-10-16",
+  "assets": {
+    "directory": "./dist"
+  },
+  "services": [
+    {
+      "binding": "DB",
+      "id": "a1bc8a9d414344c9a99842276e6871fe"
     }
+  ]
 }

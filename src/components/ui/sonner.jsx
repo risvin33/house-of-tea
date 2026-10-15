@@ -26,4 +26,6 @@ const Toaster = ({
   );
 }
 
-export { Toaster }
+const ToastProvider = ({ children }) => <>{children}</>
+
+export { Toaster, ToastProvider }
