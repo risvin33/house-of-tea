@@ -7,7 +7,7 @@
 
 ## 🌟 Overview
 
-**House of Tea (بيت الشاي)** is a premier tea and cafe brand born in 2000 in the GCC. Renowned for its authentic Karak Chai, Royal Saffron Tea, fresh street bites, and warm hospitality, House of Tea has grown into a household favorite with dozens of branches across the UAE, Qatar, and Saudi Arabia.
+**House of Tea (بيت الشاي)** is a premier tea and cafe brand born in 2000 in the GCC. Renowned for its authentic Karak Chai, Royal Saffron Tea, fresh street bites, and warm hospitality, House of Tea has grown into a household favorite with dozens of branches across the UAE.
 
 This website is a fast, responsive, and beautifully animated web application designed to deliver an engaging digital storefront for customers and prospective franchise partners.
 
@@ -22,7 +22,7 @@ This website is a fast, responsive, and beautifully animated web application des
   - Organic Green & Herbal Infusions
   - Refreshing Lemon Mint & Iced Teas
 - **Interactive Branch Directory**:
-  - Filterable by region and city (Dubai, Sharjah, Doha, Riyadh, etc.)
+  - Filterable by region and city (Dubai, Sharjah, Ajman, etc.)
   - Real-time opening hours, full addresses, and direct Google Maps navigation links.
   - Quick contact via WhatsApp and phone.
 - **Brand Story & Heritage**: Celebrating over two decades of culinary tradition, handcrafted brewing techniques, and premium spices.
