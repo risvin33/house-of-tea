@@ -8,7 +8,7 @@ export const brandDetails = {
   countries: 5,
   supportPhone: "+971 4 800 2424",
   franchiseEmail: "franchise@houseoftea.ae",
-  customerEmail: "info@houseoftea.ae",
+  customerEmail: "info@houseofteaajman.com",
 };
 
 export const teaProducts = [

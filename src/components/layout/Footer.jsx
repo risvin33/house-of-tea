@@ -23,8 +23,8 @@ const WhatsAppIcon = ({ size = 18, className = "" }) =>
 export default function Footer() {
   const socialLinks = [
     { icon: InstagramIcon, href: "https://instagram.com/houseofteaajman", label: "Instagram" },
-    { icon: FacebookIcon, href: "https://facebook.com", label: "Facebook" },
-    { icon: WhatsAppIcon, href: "https://whatsapp.com", label: "WhatsApp" }];
+    { icon: WhatsAppIcon, href: "https://wa.me/971568678675", label: "WhatsApp" }
+  ];
 
 
   const quickLinks = [
@@ -137,10 +137,10 @@ export default function Footer() {
               <li className="flex items-start gap-3 text-sm text-orange-100/80">
                 <Mail size={16} className="text-[#C5922C] mt-1 shrink-0" />
                 <a
-                  href="mailto:houseofteaajman@gmail.com"
+                  href="mailto:info@houseofteaajman.com"
                   className="hover:text-[#C5922C] transition-colors break-all">
 
-                  houseofteaajman@gmail.com
+                  info@houseofteaajman.com
                 </a>
               </li>
               <li className="flex items-start gap-3 text-sm text-orange-100/80">

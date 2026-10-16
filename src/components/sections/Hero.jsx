@@ -30,8 +30,7 @@ export default function Hero({ onExploreBranches, onExploreMenu }) {
 
   const socials = [
     { icon: InstagramIcon, href: "https://instagram.com/houseofteaajman", label: "Instagram" },
-    { icon: FacebookIcon, href: "https://facebook.com", label: "Facebook" },
-    { icon: WhatsAppIcon, href: "https://whatsapp.com", label: "WhatsApp" },
+    { icon: WhatsAppIcon, href: "https://wa.me/971568678675", label: "WhatsApp" },
   ];
 
   return (
