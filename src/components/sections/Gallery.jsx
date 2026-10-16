@@ -37,7 +37,7 @@ export default function Gallery() {
           </p>
           <div className="flex justify-center items-center gap-2 mt-4">
             <span className="h-0.5 w-10 bg-[#C5922C]" />
-            <span className="text-xs font-bold text-[#C5922C] uppercase tracking-widest">Ajman &bull; Dubai &bull; Sharjah &bull; Abu Dhabi</span>
+            <span className="text-xs font-bold text-[#C5922C] uppercase tracking-widest">Ajman &bull; UAK &bull; Sharjah &bull; RAK</span>
             <span className="h-0.5 w-10 bg-[#C5922C]" />
           </div>
         </Reveal>
