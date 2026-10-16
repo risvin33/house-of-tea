@@ -1,6 +1,6 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef } from "react";
 import { Link } from "react-router-dom";
-import { Search } from "lucide-react";
+import { Search, ChevronLeft, ChevronRight } from "lucide-react";
 import { BRANCHES, CITIES } from "@/data/branches";
 import BranchCard from "@/components/branches/BranchCard";
 import BranchMap from "@/components/branches/BranchMap";
@@ -9,6 +9,16 @@ import Reveal from "@/components/ui/Reveal";
 export default function Branches({ showMap = true }) {
   const [search, setSearch] = useState("");
   const [city, setCity] = useState("All");
+  const scrollRef = useRef(null);
+
+  const scroll = (direction) => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({
+        left: direction === "left" ? -360 : 360,
+        behavior: "smooth",
+      });
+    }
+  };
 
   const filtered = useMemo(() => {
     return BRANCHES.filter((b) => {
@@ -62,12 +72,59 @@ export default function Branches({ showMap = true }) {
           Showing {filtered.length} of {BRANCHES.length} branches
         </p>
 
-        {/* Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {filtered.map((branch) => (
+        {/* Cards Grid: 6 branches */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          {filtered.slice(0, 6).map((branch) => (
             <BranchCard key={branch.id} branch={branch} />
           ))}
         </div>
+
+        {/* Other Branches in Side Scroll */}
+        {filtered.length > 6 && (
+          <div className="mb-12">
+            <div className="flex items-center justify-between mb-4 px-1">
+              <div>
+                <h3 className="font-heading text-xl font-bold text-[#2C1810]">
+                  More Branches ({filtered.length - 6})
+                </h3>
+                <p className="text-xs text-slate-500">Scroll horizontally to explore more outlets</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => scroll("left")}
+                  className="p-2.5 rounded-full border border-[#E8D5C4] bg-white text-[#2C1810] hover:bg-orange-50 hover:border-[#A4451A] transition-colors shadow-sm"
+                  aria-label="Scroll left"
+                >
+                  <ChevronLeft size={18} />
+                </button>
+                <button
+                  type="button"
+                  onClick={() => scroll("right")}
+                  className="p-2.5 rounded-full border border-[#E8D5C4] bg-white text-[#2C1810] hover:bg-orange-50 hover:border-[#A4451A] transition-colors shadow-sm"
+                  aria-label="Scroll right"
+                >
+                  <ChevronRight size={18} />
+                </button>
+              </div>
+            </div>
+
+            <div
+              ref={scrollRef}
+              className="flex overflow-x-auto gap-6 pb-4 pt-1 snap-x scrollbar-thin scroll-smooth"
+              style={{ scrollbarWidth: "thin" }}
+            >
+              {filtered.slice(6).map((branch) => (
+                <div
+                  key={branch.id}
+                  className="min-w-[290px] sm:min-w-[340px] max-w-[340px] shrink-0 snap-start flex flex-col"
+                >
+                  <BranchCard branch={branch} />
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {filtered.length === 0 && (
           <p className="text-center text-slate-500 py-8">No branches found. Try a different search.</p>
