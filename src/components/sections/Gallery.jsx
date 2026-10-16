@@ -13,7 +13,12 @@ const GALLERY = [
   { src: "/assets/images/gallery/gallery-06.jpeg", alt: "House of Tea counter area" },
   { src: "/assets/images/gallery/gallery-07.jpeg", alt: "House of Tea backlit logo sign" },
   { src: "/assets/images/gallery/gallery-08.jpeg", alt: "House of Tea service counter" },
-  { src: "/assets/images/gallery/gallery-09.jpeg", alt: "Fresh produce display at House of Tea" }
+  { src: "/assets/images/gallery/gallery-09.jpeg", alt: "Fresh produce display at House of Tea" },
+  { src: "/assets/images/gallery/gallery-10.jpg", alt: "House of Tea branded packaging" },
+  { src: "/assets/images/gallery/gallery-11.jpg", alt: "House of Tea bottled water" },
+  { src: "/assets/images/gallery/gallery-12.jpg", alt: "House of Tea special tea and grill burger" },
+  { src: "/assets/images/gallery/gallery-13.jpg", alt: "House of Tea brand emblem logo" },
+  { src: "/assets/images/gallery/gallery-14.jpg", alt: "House of Tea special fresh juices" }
 ];
 
 
