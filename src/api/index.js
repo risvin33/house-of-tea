@@ -4,7 +4,7 @@ export const brandDetails = {
   slogan: "Feel The Power of Tea",
   founded: 2000,
   cupsServedDaily: "120,000+",
-  activeBranches: "54+",
+  activeBranches: "19",
   countries: 5,
   supportPhone: "+971 4 800 2424",
   franchiseEmail: "franchise@houseoftea.ae",

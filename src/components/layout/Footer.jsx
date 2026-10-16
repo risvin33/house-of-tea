@@ -63,7 +63,7 @@ export default function Footer() {
             </div>
 
             <p className="text-sm text-orange-100/70 leading-relaxed mb-6">
-              Feel the power of tea. A legacy of authentic saffron karak and street bites crafted with passion across 54+ outlets since 2000.
+              Feel the power of tea. A legacy of authentic saffron karak and street bites crafted with passion across 19 outlets since 2000.
             </p>
             <div className="flex gap-3">
               {socialLinks.map(({ icon: Icon, href, label }) =>

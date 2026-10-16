@@ -23,7 +23,7 @@ export default function Branches({ showMap = true }) {
       <div className="relative max-w-7xl mx-auto">
         <Reveal className="text-center mb-12">
           <p className="font-display text-xs tracking-[0.3em] text-[#A4451A] font-bold mb-3 uppercase">
-            فروعنا في الخليج &bull; 54+ Outlets
+            فروعنا في الخليج &bull; 19 Outlets
           </p>
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#2C1810] mb-4">
             Our <span className="text-[#A4451A]">Branches</span>

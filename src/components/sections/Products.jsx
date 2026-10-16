@@ -64,7 +64,7 @@ export default function Products() {
             Crafted for <span className="text-[#e6007e]">Every Moment</span>
           </h2>
           <p className="text-sm md:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Freshly brewed on demand at all 54+ outlets across the UAE. Served piping hot around the clock with curbside car service.
+            Freshly brewed on demand at all 19 outlets across the UAE. Served piping hot around the clock with curbside car service.
           </p>
         </Reveal>
 
