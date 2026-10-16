@@ -29,7 +29,7 @@ export default function Branches({ showMap = true }) {
             Our <span className="text-[#A4451A]">Branches</span>
           </h2>
           <p className="text-slate-600 max-w-xl mx-auto">
-            Find the nearest House of Tea outlet across Ajman, Dubai, Sharjah, Abu Dhabi & RAK for drive-thru & car-side karak service.
+            Find the nearest House of Tea outlet across Ajman, Sharjah, UAK & RAK for drive-thru & car-side karak service.
           </p>
         </Reveal>
 
